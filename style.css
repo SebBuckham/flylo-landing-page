@@ -134,20 +134,29 @@ input {
   flex-direction: column;
   margin-left: 150px;
   font-size: 15px;
+  height: 30%;
   box-shadow: #3da08f;
+  margin-bottom: 30px;
 }
 
 .kyle {
-  margin-left: 85px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   position: relative;
-  bottom: 100px;
-  padding: 5px;
+  left: 90px;
+  bottom: 110px;
+  margin: 0;
+}
+
+.kyle h4 {
+  font-size: 20px;
 }
 
 .test-info p {
-  width: 80%;
-  font-size: 17px;
-  padding: 5px;
+  font-size: 20px;
+  padding: 10px;
+  margin: 0;
 }
 
 .test-info img {
@@ -167,6 +176,7 @@ footer {
   justify-content: center;
   color: white;
   background-color: hsl(238, 22%, 44%);
+  width: 100%;
 }
 
 .early-access p {
@@ -191,4 +201,45 @@ footer {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  width: 140%;
+}
+
+.early-email {
+  width: 50%;
+  display: flex;
+  position: relative;
+  left: 90px;
+}
+
+.btn-early {
+  width: 50%;
+  align-items: center;
+  margin-left: 40px;
+  margin-top: 10px;
+  background-color: hsl(224, 93%, 58%);
+  color: white;
+  height: 30px;
+  cursor: pointer;
+  margin-bottom: 80px;
+  display: flex;
+  position: relative;
+  left: 90px;
+  text-align: center;
+}
+
+.btn-early h3 {
+  position: relative;
+  left: 40px;
+}
+
+.footer {
+  background-color: hsl(243, 87%, 12%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-info {
+  margin-top: 50px;
+  margin-left: 40px;
 }
