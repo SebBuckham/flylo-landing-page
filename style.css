@@ -13,7 +13,7 @@ body {
   display: flex;
   justify-content: flex-end;
   position: relative;
-  bottom: 50px;
+  bottom: 60px;
 }
 
 .menu a {
@@ -21,7 +21,7 @@ body {
   margin-right: 20px;
   text-decoration: none;
   color: black;
-  font-size: 14px;
+  font-size: 24px;
 }
 
 .image img {
@@ -46,10 +46,8 @@ body {
   margin-right: 10px;
 }
 
-.email {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+.email-us {
+  height: 50%;
 }
 
 input {
@@ -137,6 +135,7 @@ input {
   height: 30%;
   box-shadow: #3da08f;
   margin-bottom: 30px;
+  border: black 1px solid;
 }
 
 .kyle {
@@ -242,4 +241,43 @@ footer {
 .footer-info {
   margin-top: 50px;
   margin-left: 40px;
+}
+
+.logo img {
+  fill: blanchedalmond;
+}
+
+.phone {
+  display: flex;
+  margin: 10px;
+}
+.phone img {
+  margin: 20px;
+  width: 25px;
+}
+
+.email {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+
+.email img {
+  width: 25px;
+  margin: 20px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 10px;
+  font-size: 20px;
 }
